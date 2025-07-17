@@ -27,7 +27,7 @@ const id2 = Symbol('234');
 // // Symbol provides a unique id to every variable even if the value inside the variable is same or not
 
 const hero = ["Bruce", "Jack", "Conor"]; //Array
-console.log(hero);
+// console.log(hero);
 
 
 
@@ -35,12 +35,38 @@ let myObj = {
     name : "Raja",        //Object
     age : 23
 }
-console.log(myObj.age);
+// console.log(myObj.age);
 
 
 let myFunction = function () {
     console.log("Hello World");          //Function
     
 }
-console.log(typeof hero);
+// console.log(typeof hero);
+
+// =====================================================================================================================
+
+/*
+   1) Stack Memory - It stores all primitive Data types
+                   - You can't access the data variables memory location
+   2) Heap Memory - It stores all reference or Non primitive data types
+                  - You can access the data variables memory location
+*/
+
+let name = "Raja";
+let anotherName = name;
+anotherName = "Conor";      // Here changes doesn't affect main content
+
+console.log(name);
+
+let obj = {
+    name : "Raja",
+    village : "Ayaba",
+    age : 23
+}
+
+let obj2 = obj;
+obj2.age = 24;      // Changes reflected on main content
+
+console.log(obj.age);
 
