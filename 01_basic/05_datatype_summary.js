@@ -48,9 +48,9 @@ let myFunction = function () {
 
 /*
    1) Stack Memory - It stores all primitive Data types
-                   - You can't access the data variables memory location
+                   - You can't access the variables memory location
    2) Heap Memory - It stores all reference or Non primitive data types
-                  - You can access the data variables memory location
+                  - You can access the variables memory location
 */
 
 let name = "Raja";
