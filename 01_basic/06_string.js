@@ -15,14 +15,14 @@ console.log(village.substring(0,3));
 
 const newName = "  Bruce   ";
 // console.log(newName);
-// console.log(newName.trimEnd());
+// console.log(newName.trimEnd());   // It removes trailing spaces
 
 const url = "https://raja$$nayak-20";
-const newUrl = url.replace('$$', '-');
+const newUrl = url.replace('$$', '-');  // It replace something with another
 console.log(newUrl);
 
 const newString = "raja_nayak_20";
-console.log(newString.split('_'));
+console.log(newString.split('_'));   // This method separate your string by something that you have given in a array format
 const arr = newString.split('_');
-console.log(arr[1]);
+console.log(arr[1]);                // You can access retrieve the data from that array also
 
